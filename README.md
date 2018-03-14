@@ -1,7 +1,7 @@
 # retryTestRule
-Retry TestRule to use in Junit assertions (e.g. UiAutomator, Appium, etc)
+Retry TestRule to use in Junit assertions (e.g. UiAutomator, Appium, Espresso, etc)
 
-Retry TestRule using @FlakyTest for JUnit
+Retry TestRule using @FlakyTest for JUnit (It also works with Espresso ViewAssertions)
 ==================
 
 `@FlakyTest` annotation that adds retry logic to Junit tests, used for instance in UiAutomator, Appium, etc.
